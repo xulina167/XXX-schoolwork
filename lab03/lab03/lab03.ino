@@ -18,6 +18,7 @@ void setup() {
 }
 
 void loop() {
+  // 开始循环，控制LED呼吸灯效果
   // 逐渐变亮
   for(int dutyCycle = 0; dutyCycle <= 255; dutyCycle++){
     ledcWrite(channel, dutyCycle); // 必须写通道号，不是引脚号
