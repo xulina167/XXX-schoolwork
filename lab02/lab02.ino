@@ -12,6 +12,7 @@ void setup() {
 
 void loop() {
   Serial.println("Hello ESP32!");
+  Serial.println("LED status updated");
   digitalWrite(LED_PIN, HIGH);   // 点亮LED
    digitalWrite(LED_PIN_Y, HIGH);   // 点亮LED
   delay(1000);                   // 等待1秒
