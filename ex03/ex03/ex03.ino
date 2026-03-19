@@ -52,7 +52,7 @@ void loop() {
     }
     // 首次进入该图案位，初始化亮灯
     if (patternIndex < patternLength && previousMillis == 0) {
-      ledcWrite(channel, 255);
+      ledcWrite(channel, 255);  // 打开LED
       previousMillis = currentMillis;
       isLightOn = true;
     }
