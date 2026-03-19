@@ -31,4 +31,5 @@ void loop() {
   }
   
   Serial.println("Breathing cycle completed");
+  // Indicate the end of a cycle
 }
