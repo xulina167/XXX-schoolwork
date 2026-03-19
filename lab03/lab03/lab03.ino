@@ -8,6 +8,7 @@ const int channel = 0;      // 直接用数字0作为PWM通道
 
 void setup() {
   Serial.begin(115200);
+  // 初始化串口通信，设置波特率为115200
   
   // 第一步：先配置通道的频率和分辨率
   ledcSetup(channel, freq, resolution);
