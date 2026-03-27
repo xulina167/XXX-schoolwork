@@ -8,6 +8,10 @@ A simple C program that prints "Hello World".
 ### Task 2: Keyboard Input
 Added input function to read user's name and print a personalized greeting.
 2026年 3月25日 早上八点打卡
+### Task lab02: 
+通过定义引脚常量控制两路 LED（引脚 2、17）同步闪烁，实现串口打印状态信息，掌握引脚输出模式配置、数字电平写入与延时函数的基础用法。
+### Task lab03: 
+通过配置 PWM 通道（频率 5000Hz、8 位分辨率）驱动引脚 2 的 LED 实现渐变呼吸效果，掌握 ledcSetup/ledcAttachPin/ledcWrite 的 PWM 核心用法，实现 LED 亮度从 0 到 255 平滑渐变。
 ### Task ex02:  
 ex02 实验使用 millis () 函数代替 delay ()，实现 LED 以 1 赫兹的频率稳定闪烁，避免阻塞程序运行
 ### Task ex03:  
